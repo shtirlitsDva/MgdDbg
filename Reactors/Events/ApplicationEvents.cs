@@ -41,7 +41,7 @@ namespace MgdDbg.Reactors.Events {
         {
             Utils.AcadUi.PrintToCmdLine("\nApplication Events Turned On ...\n");
 
-            Application.BeginQuit += new EventHandler(event_BeginQuit);
+            //Application.BeginQuit += new EventHandler(event_BeginQuit);
             Application.DisplayingCustomizeDialog += new TabbedDialogEventHandler(event_DisplayingCustomizeDialog);
             Application.DisplayingDraftingSettingsDialog += new TabbedDialogEventHandler(event_DisplayingDraftingSettingsDialog);
             Application.DisplayingOptionDialog += new TabbedDialogEventHandler(event_DisplayingOptionDialog);
@@ -56,7 +56,7 @@ namespace MgdDbg.Reactors.Events {
         {
             Utils.AcadUi.PrintToCmdLine("\nApplication Events Turned Off ...\n");
 
-            Application.BeginQuit -= new EventHandler(event_BeginQuit);
+            //Application.BeginQuit -= new EventHandler(event_BeginQuit);
             Application.DisplayingCustomizeDialog -= new TabbedDialogEventHandler(event_DisplayingCustomizeDialog);
             Application.DisplayingDraftingSettingsDialog -= new TabbedDialogEventHandler(event_DisplayingDraftingSettingsDialog);
             Application.DisplayingOptionDialog -= new TabbedDialogEventHandler(event_DisplayingOptionDialog);
