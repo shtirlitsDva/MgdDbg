@@ -68,17 +68,17 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="AcCoreMgd">
-      <HintPath>..\..\ObjectARX 2017\inc\AcCoreMgd.dll</HintPath>
+      <HintPath>..\..\..\Programs\ADSK20\AutoCAD 2020\accoremgd.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="acdbmgd, Version=18.1.0.0, Culture=neutral, processorArchitecture=x86">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\ObjectARX 2017\inc\AcDbMgd.dll</HintPath>
+      <HintPath>..\..\..\Programs\ADSK20\AutoCAD 2020\acdbmgd.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="acmgd, Version=18.1.0.0, Culture=neutral, processorArchitecture=x86">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\ObjectARX 2017\inc\AcMgd.dll</HintPath>
+      <HintPath>..\..\..\Programs\ADSK20\AutoCAD 2020\acmgd.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="PresentationCore">
